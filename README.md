@@ -8,7 +8,7 @@ A Word Gessing game with Angular Framework. Please refer to the demo for how the
 To start, download the provided code for the backend server, install the
 dependencies `npm i`, then head to
 [Oxford Dictionaties API](https://developer.oxforddictionaries.com/) and get
-the personal API key, choose the free introductory package. Update your `.env`
+the personal API key, choose the free introductory package. Update `.env`
 file with the application ID and Key.
 
 ```json
