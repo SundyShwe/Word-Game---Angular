@@ -8,15 +8,15 @@ A Word Gessing game with Angular Framework. Please refer to the demo for how the
 To start, download the provided code for the backend server, install the
 dependencies `npm i`, then head to
 [Oxford Dictionaties API](https://developer.oxforddictionaries.com/) and get
-your personal API key, choose the free introductory package. Update your `.env`
-file with the your application ID and Key.
+the personal API key, choose the free introductory package. Update your `.env`
+file with the application ID and Key.
 
 ```json
 APP_ID="INSERT_YOUR_APP_ID_HERE"
 APP_KEY="INSERT_YOUR_APP_KEY_HERE"
 ```
 
-Start your backend server `npm run start` and make sure it is listening to port
+Start backend server `npm run start` and make sure it is listening to port
 `3000`.\
 This web server accepts requests to:
 
@@ -94,20 +94,6 @@ export const INITIAL_STATE = {
   <img src="./snapshot-words.png" />
 </p>
 
-The following helper method returns an array of unique random letters, where
-length is the game complexity:
-
-```ts
-private getRandomLettersArrayOf(length: number): string[] {
-  let result: string[] = [];
-  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  while (result.length < length) {
-    const letter = characters.charAt(Math.floor(Math.random() * characters.length))
-    if (!result.includes(letter)) result.push(letter)
-  }
-  return result;
-}
-```
 
 #### `HistoryComponent`
 
