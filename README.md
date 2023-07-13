@@ -1,11 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/z8gbpdnf)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=11328117)
-# CS569 - Words Game
 
-You will be building a Word Gessing game with Angular Framework. Please refer to
-the demo for how the game works.
+# Words Game
 
-### Backend Preparation
+A Word Gessing game with Angular Framework. Please refer to the demo for how the game works.
+
+### Backend
 
 To start, download the provided code for the backend server, install the
 dependencies `npm i`, then head to
@@ -130,22 +128,4 @@ be displayed when the value is outside of that range.
   <img src="./snapshot-settings.png" />
 </p>
 
-### Notes
 
-- Submission deadline is 1:00 PM, please submit your work regardless if you
-  finished or not.
-- Completing the requirement will provide immunity in the final exam in three
-  tiers:
-  - Full implementation: You may wave questions up to 15 points from the final
-    exam. (tier capacity: 3 students)
-  - (Words and History) or (Words and Settings): You may wave questions up to 10
-    points from the final exam. (tier capacity: 3 students)
-  - Words only: You may wave questions up to 5 points from the final exam. (no
-    capacity)
-- Please note that code must meet the requirements to be accepted. Send me a message on Teams and specify which tier you are
-  applying to.
-
-### Code Honor Submission Policy
-
-_Remember to respect the code honor submission policy. All written code must be original. Presenting any code as one’s own work when it came from another source
-is plagiarism, which includes any matching patterns and code snippets, and will affect your grade. The use of AI is not permitted in this assignment. For more details, check the full course policies in the syllabus._
